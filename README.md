@@ -1,6 +1,6 @@
 Its a simple python code used to visualize the places present in the where.data file in google map. 
 
-Google Maps Geocoding API is very useful and i used to get the latitude  and longitude of the places.
+I have used Google Maps Geocoding API to get the latitude  and longitude of the places.
 
 For more: https://developers.google.com/maps/documentation/geocoding/start
 
@@ -21,12 +21,11 @@ geoload.py creates a table Locations and stores the address along with  the json
 
 Geodump.py
 
-geodump.py read the datas from the database and writes the longitude and longitude along with formatted_address in JSON format in where.js
+geodump.py read the datas from the database and writes the latitude and longitude along with formatted_address in JSON format in where.js
 to visualize it on a map.
 
 where.html
 
-It contains simple google map code with marker. All the formatted_address with latitude,longitude are retrieved by including where.js and marker 
-is placed.
+It contains simple google map code with marker. All the formatted_address with latitude,longitude are retrieved by including where.js and marker is placed.
 
-Thank You !!
+
